@@ -1,59 +1,92 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: #F57C00;
 }
-header{
-    margin-top: 20px;  
+
+header {
+    margin-top: 20px;
     padding-top: 20px;
 }
-header div a img{
-    height: 150px;
+
+header div a img {
+    height: 200px;
     border-radius: 100%;
     box-shadow: -5px 5px 10px #FF5722;
 }
-header div a{
+
+header div a {
     display: flex;
     justify-content: center;
-}
-header div :nth-child(2){
-    text-decoration: none;
-    color: #212121;
-    background-color: ;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px ;
 }
 
-nav{
-   
+header div :nth-child(2) {
+    text-decoration: none;
+    color: #212121;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
-header nav ul{
+
+header nav ul {
     display: flex;
     justify-content: center;
 }
-header nav ul li{    
+
+header nav ul li {
     display: inline-block;
     padding: 20px;
-    margin: 5px; 
-      
+    margin: 5px;
+
 }
-header nav ul li a img{
+
+header nav ul li a img {
     height: 25px;
 }
-header nav ul li a img:hover{
+
+header nav ul li a img:hover {
     height: 35px;
 }
-section p{
+
+section p {
     padding: 20px;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
 }
-.subtitulo{
+
+.subtitulo {
     color: #BDBDBD;
     text-align: center;
     margin-top: 5px;
+}
+
+section ul li a {
+    text-decoration: none;
+    color: #212121;
+    background-color: #FF5722;
+    padding: 10px 15px 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    border: solid #212121;
+    box-shadow: -5px 5px 10px #FFE0B2;
+}
+
+section ul li {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #212121;
+    padding: 50px;
+    margin-top: 40px;
+    color: #FF5722;
+}
+
+footer p {
+    text-align: center;
 }
