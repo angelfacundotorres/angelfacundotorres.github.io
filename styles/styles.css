@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F57C00;
+}
+header{
+    margin-top: 20px;  
+    padding-top: 20px;
+}
+header div a img{
+    height: 150px;
+    border-radius: 100%;
+    box-shadow: -5px 5px 10px #FF5722;
+}
+header div a{
+    display: flex;
+    justify-content: center;
+}
+header div :nth-child(2){
+    text-decoration: none;
+    color: #212121;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px ;
+}
+
+nav{
+   
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+}
+header nav ul li{    
+    display: inline-block;
+    padding: 20px;
+    margin: 5px; 
+      
+}
+header nav ul li a img{
+    height: 25px;
+}
+header nav ul li a img:hover{
+    height: 35px;
+}
+section p{
+    padding: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.subtitulo{
+    color: #BDBDBD;
+    text-align: center;
+    margin-top: 5px;
+}
